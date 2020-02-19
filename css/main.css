@@ -1,0 +1,12 @@
+h1{
+    color: red;
+    background: gray;
+}
+nav{
+    background: rgb(87, 134, 150);
+}
+ol{
+    background: #fdea80;
+    font-size: larger;
+    font-family: cursive;
+}
