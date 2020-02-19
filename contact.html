@@ -1,4 +1,4 @@
-!DOCTYPE html>>
+<!DOCTYPE html>
 <html>
     <head>
         <title>html Assignment - Martin Davis</title>
@@ -17,6 +17,9 @@
                 Navigation
                 <ul>
                     <li>
+                        <a href=./index.html>Main</a>
+                    </li>
+                    <li>
                         <a href=./about.html>About</a>
                     </li>
                     <li>
@@ -25,7 +28,7 @@
                 </ul>
             </nav>
         </header>
-        <form action="submit.php" method="POST">
+        <form action="submit.php" method="POST" id="usrform">
             <label for=first-name>
                 First name
                 <input type="text" name="first-name" placeholder="Enter your first name...">
@@ -51,6 +54,7 @@
                 <input type="radio" name="subject" value="My hobbies">
                 My hobbies
             </label>
+            <br><br>
             <label for="contact-means">
                 Choose your preffered means of contact:
                 <select name="contact-means">
@@ -58,4 +62,10 @@
                     <option value="Telephone">Telephone</option>
                 </select>
             </label>
+            <br>
+            <p>Leave me a brief message.</p>
+            <textarea name="comment" form="usrform" placeholder="Enter text here..." cols="40" rows="4"></textarea>
+            <br><br>
+            <input type="submit" value="Submit Form">
         </form>
+ 
