@@ -1,12 +1,15 @@
-h1{
-    color: red;
-    background: gray;
-}
 nav{
-    background: rgb(87, 134, 150);
+    background: rgb(142, 209, 231);
+}
+.item-intro{
+    font-size: large;
+    color: rgb(0, 138, 0);
 }
 ol{
     background: #fdea80;
-    font-size: larger;
+    font-size: medium;
     font-family: cursive;
+}
+#work-radio{
+    color: red;
 }
