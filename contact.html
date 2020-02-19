@@ -1,0 +1,61 @@
+!DOCTYPE html>>
+<html>
+    <head>
+        <title>html Assignment - Martin Davis</title>
+        <meta author="Martin Davis">
+        <meta charset="UTF-8">
+        <meta description="website for class assignment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./img/favicon">
+        <link rel="stylesheet" href="./css/main.css">
+        <script src="./js/scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Page</h1>
+            <nav>
+                Navigation
+                <ul>
+                    <li>
+                        <a href=./about.html>About</a>
+                    </li>
+                    <li>
+                        <a href=./contact.html>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <form action="submit.php" method="POST">
+            <label for=first-name>
+                First name
+                <input type="text" name="first-name" placeholder="Enter your first name...">
+            </label>
+            <label for=last-name>
+                Last name
+                <input type="text" name="last-name" placeholder="Enter your last name...">
+            </label>
+            <label for=email>
+                Email
+                <input type="text" name="email" placeholder="Enter your email...">
+            </label>
+            <label for=phone-number>
+                Email
+                <input type="tel" name="phone-number" placeholder="Enter your telephone number...">
+            </label>
+            <p>Are you contacting me about:</p>
+            <label>
+                <input type="radio" name="subject" value="work">
+                Work
+            </label>
+            <label>
+                <input type="radio" name="subject" value="My hobbies">
+                My hobbies
+            </label>
+            <label for="contact-means">
+                Choose your preffered means of contact:
+                <select name="contact-means">
+                    <option value="email">Email</option>
+                    <option value="Telephone">Telephone</option>
+                </select>
+            </label>
+        </form>
